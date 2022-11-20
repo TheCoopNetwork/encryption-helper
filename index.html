@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Encrypt text</title>
+  </head>
+  <body>
+    <script src="./dist//main.js"></script>
+    <!-- <label for="txt">Text to encrypt</label> -->
+    <div>
+      <input type="text" id="txt" placeholder="Text to encrypt" size="100"/>
+      <button onclick="generate()">Generate</button>
+    </div>
+    <div>
+      <input type="text" id="pwd" placeholder="Password"/>
+      <button onclick="encrypt()">Encrypt</button>
+    </div>
+    <div>
+      <textarea type="text" id="encrypted" value="output" rows="5" cols="90" placeholder="Output" readonly></textarea>
+    </div>
+
+  </body>
+</html>
